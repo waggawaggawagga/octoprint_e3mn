@@ -9,7 +9,8 @@ services:
       - 84:80
     devices:
     # use `python -m serial.tools.miniterm` to see what the name is of the printer, this requires pyserial
-      - /dev/ttyUSB0:/dev/ttyUSB0
+      #- /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev:/dev
     #  - /dev/video0:/dev/video0
     volumes:
      - octoprint:/octoprint
