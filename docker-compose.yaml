@@ -3,7 +3,7 @@ version: '2.4'
 services:
   octoprint_e3mn:
     image: octoprint/octoprint
-container_name: octoprint_e3mn
+    container_name: octoprint_e3mn
     restart: unless-stopped
     ports:
       - 84:80
